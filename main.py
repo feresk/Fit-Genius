@@ -95,7 +95,7 @@ def predict_diet(data : ModelInputs) :
 
     # APIKEY = insert your api key
 
-    predDiet = ldm.makePrediction([age,gender,height,weight,goal,diabetes,hypertension,celiac_disease,irritable_bowel_syndrome,heart_disease,kidney_disease,
+    predDiet = ldm.makePrediction(APIKEY , [age,gender,height,weight,goal,diabetes,hypertension,celiac_disease,irritable_bowel_syndrome,heart_disease,kidney_disease,
     lactose_intolerance,gluten_intolerance,fructose_intolerance,histamine_intolerance,fodmap_intolerance,
     peanut_allergy,tree_nut_allergy,shellfish_allergy,fish_allergy,egg_allergy,milk_allergy,soy_allergy,wheat_allergy])
 
